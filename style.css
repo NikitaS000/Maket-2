@@ -1,0 +1,90 @@
+body {
+    text-align: justify;
+    background-color: lightgray;
+}
+h1, h2, p, .right{
+    margin: 0;
+}
+.wrapper {
+    width: 890px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    background-color: #F8AA03;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.box {
+    display: flex;
+}
+ul {
+    color: white;
+    display: flex;
+    font-size: 19px;
+}
+li{
+    list-style: none;
+}
+.header li {
+    margin-right: 30px;
+}
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.liunder {
+    text-decoration: underline;
+
+}
+.left {
+    float: left;
+    width: 640px;
+    min-height: 500px;
+    padding: 20px;
+}
+.flh1 {
+    margin: 0;
+    font-size: 21px;
+}
+.lh2 {
+    margin-top: 20px;
+    font-size: 19px;
+}
+.lp {
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right {
+    float: right;
+    width: 100%;
+    min-height: 500px;
+
+}
+.right li {
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.box2 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.right h2 {
+    font-size:17px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    padding: 30px 0 30px 0;
+    background-color: #F8AA03;
+    color: white;
+}
